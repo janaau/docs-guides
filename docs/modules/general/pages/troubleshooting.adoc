@@ -489,3 +489,22 @@ image::devtools_webpack_shared_packages.png[]
 [#compilation-must-be-instance-of-compilation]
 == TypeError: The 'compilation' argument must be an instance of Compilation
 The error typically occurs when there's more than 1 version of webpack used by the packages. It is a common issue if the `@angular-devkit/build-angular` library is used. To resolve the issue check the webpack versions requested by the packages and adjust so only one version remains. In order to check webpack versions execute `npm ls webpack` command. This command is going to show the exact package version used per dependency.
+
+
+[#specific-issues]
+== Specific issues
+
+[#webpack-compilation]
+=== The 'compilation' argument must be an instance of Compilation
+Errors indicating issues with webpack compilation are related to multiple versions used in the project. In order to fix the issue:
+
+* run `npm ls webpack`
+* identify packages with different webpack version
+* ensure only 1 version of webpack is present
+
+[#angular-compilation]
+=== Application is not showing up and "t is not a function" error is in console
+If the application is not showing up and errors like `t is not a function` are in the console, then most likely there is that the builder used in the project is not compatible with the Angular packages used in the project. To resolve the issue:
+
+* make sure that the builder used in the project is compatible with the Angular version used
+** e.g., for Angular 18 and ngx-build-plus package use version `^18.0.0`
