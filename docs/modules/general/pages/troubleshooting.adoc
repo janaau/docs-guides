@@ -502,6 +502,8 @@ Errors indicating issues with webpack compilation are related to multiple versio
 * identify packages with different webpack version
 * ensure only 1 version of webpack is present
 
+To use only 1 version of webpack, you should adjust the versions of the packages that depend on webpack to use the same version. You can do this by updating the package.json file to specify compatible versions or by using npm overrides feature.
+
 [#angular-compilation]
 === Application is not showing up and "t is not a function" error is in console
 If the application is not showing up and errors like `t is not a function` are in the console, then most likely there is that the builder used in the project is not compatible with the Angular packages used in the project. To resolve the issue:
