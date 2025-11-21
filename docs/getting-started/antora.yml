@@ -1,0 +1,6 @@
+name: getting-started
+title: Getting Started
+version: latest
+start_page: general:index.adoc
+nav:
+  - modules/general/nav.adoc

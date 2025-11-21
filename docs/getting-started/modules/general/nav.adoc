@@ -1,0 +1,18 @@
+* xref:local-env-setup/local_env_setup.adoc[Local Environment Setup]
+
+* xref:first-application/getting_started.adoc[First Application]
+** xref:first-application/getting_started.adoc[Create a new Application]
+
+** xref:first-application/running_custom_apps_overview.adoc[Running and Testing Custom Applications]
+
+*** xref:first-application/app_setup_cli.adoc[Automatic App Setup with Local Env CLI]
+*** xref:first-application/app_setup_manual.adoc[Manual App Setup]
+
+*** xref:first-application/image_build_automatic.adoc[Automatic Image Build]
+*** xref:first-application/image_build_manual.adoc[Manual Image Build]
+
+*** xref:first-application/enable_hot_reload.adoc[Enable Hot Reload]
+*** xref:first-application/run_multiple_apps.adoc[Run Multiple Apps]
+
+*** xref:first-application/testing_existing_core_apps.adoc[Testing Existing Core Apps]
+*** xref:first-application/app_removal.adoc[Removal of Custom Apps]
