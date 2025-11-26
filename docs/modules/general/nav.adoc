@@ -1,3 +1,0 @@
-* xref:index.adoc[General]
-* xref:api_guidelines.adoc[API Guidelines]
-* xref:troubleshooting.adoc[Troubleshooting]

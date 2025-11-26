@@ -51,7 +51,7 @@ local_mfe:
 
 Now you can start your application with `npm start` and restart your containers with `docker compose --profile base up -d`. Every change in the application should be reflected immediately under `http://local-proxy/onecx-shell/admin/helloWorld/hello`.
 
-If you want to run multiple applications on different ports, see the xref:run_multiple_apps.adoc[Running Multiple Local Apps Simultaneously] section.
+If you want to run multiple applications on different ports, see the xref:./run_multiple_apps.adoc[Running Multiple Local Apps Simultaneously] section.
 
 [#troubleshooting]
 == Troubleshooting
