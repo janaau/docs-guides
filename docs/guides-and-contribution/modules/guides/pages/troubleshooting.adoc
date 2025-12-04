@@ -13,7 +13,7 @@ When you encounter an issue like an injection error, application is not loading,
 
 [#onecx-compatibility]
 == OneCX Compatibility
-Make sure that the App is OneCX compatible and you followed the guidelines.
+Make sure that the App is xref:documentation:javascript:general/onecx-compatibility.adoc[OneCX compatible and you followed the guidelines].
 
 [#disable-minified-build]
 == Disable minified build

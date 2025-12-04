@@ -1,3 +1,0 @@
-= Local Env Setup for OneCX
-
-to be updated
